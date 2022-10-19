@@ -24,4 +24,4 @@ def count(ti):
         c = check()
 
 while True:
-    count(7200)
+    count(72500)
