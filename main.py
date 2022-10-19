@@ -10,7 +10,7 @@ def count(ti):
     while ti:
 
         mins,secs = divmod(ti,60)
-        ti_for = "{:02d}:{:02d}".format(mins,secs)
+        ti_for = mins + ":" + secs
         print(ti_for,end="\r")
         t.sleep(1)
         ti -= 1
